@@ -33,3 +33,53 @@
     color: var(--azul);
     background: url("../assets/Email.svg") no-repeat 10%;
 }
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5rem 3rem;
+    }
+
+    .contato__titulo {
+        font-size: 24px;
+        width: 75%;
+        
+    }
+    
+    .contato__texto {
+        margin-top: 1rem;
+        width: 75%;
+    }
+
+    .contato_descricao {
+        text-align: left;
+    }
+
+    .contato__email {
+        font-size: 16px;
+        width: 50%;
+        margin: 0 5rem 0 0;
+    }
+ }
+
+ @media screen and (min-width: 1728px) {
+
+    .contato {
+        padding: 3rem 3rem;
+    }
+
+    .contato__email {
+        width: 30%;
+    }
+
+    .contato__texto {
+        margin-top: 1rem;
+        width: 75%;
+    }
+
+    .contato__titulo {
+        width: auto;
+    }
+ }
